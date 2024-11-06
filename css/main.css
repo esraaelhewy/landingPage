@@ -1,0 +1,99 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.home{
+    background-image: url(../images/p7.jpg);
+    background-size: 100% 100%;
+    height: 100vh;
+    width:100%;
+}
+.home .nav{
+    background-color: rgba(0, 0, 0, 0.4);
+    overflow: auto;
+}
+.home .nav ul{
+    list-style-type: none;
+    padding:10px;
+}
+.home .nav ul li{
+    float: right;
+    margin: 10px;
+}
+.home .nav ul .logo{
+    float: left;
+}
+.home .nav ul li a{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    padding:10px;
+    font-family: monospace;
+}
+.home .nav ul li img{
+    width:90px;
+}
+
+/* ---End Nav */
+
+.home .caption{
+    text-align: center;
+}
+.home .caption img{
+    width:200px;
+}
+.home .caption h1{
+    font-size: 45px;
+    padding:10px;
+}
+.home .caption p{
+    font-size: 20px;
+    padding: 10px;
+    margin: 20px auto;
+    color: white;
+    width:50%;
+}
+.home .caption button{
+    border: none;
+    padding: 10px;
+    margin: 10px 5px;
+    border-radius: 17px;
+    background-color: rgb(0, 0, 0);
+    color: white;
+    width:15%;
+    font-weight: bold;
+    cursor:pointer;
+}
+.home .overlay{
+    background-color: rgba(51, 50, 50, 0.7);
+    height: 100vh;
+    width: 100%;
+}
+
+/* ------Media query-------- */
+@media (max-width:800px) {
+    .home .nav ul li a{
+        font-size: 14px;
+    }
+    .home .nav ul li img{
+        width:50px;
+    }
+    .home .caption img{
+        margin-top:60px;
+        width:200px;
+    }
+    .home .caption h1{
+        font-size: 25px;
+        padding:10px;
+    }
+    .home .caption p{
+        margin: 10px auto;
+        width:70%;
+        font-size: 15px;
+    }
+    .home .caption button{
+        width:50%;
+        font-size: 11px;
+    }
+}
